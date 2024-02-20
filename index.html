@@ -61,6 +61,91 @@
       </div>
     </section>
 
+    <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Emergency Report Information</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row m-0">
+          <div class="col-md-12 p-0 pt-4 pb-4">
+            <form action="#" class="bg-light p-4.m-auto">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" required placeholder="Full Name"/>
+                  </div>
+                  <div class="mb-3">
+                    <input type="number" class="form-control" required placeholder="Mobile Number"/>
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" required placeholder="Location of the Incident"/>
+                  </div>
+                  <div class="mb-3">
+                      <select class="form-control"required>
+                        <option value="" selected disabled>Type of Emergency:</option>
+                         <option>2</option>
+                         <option>3</option>
+                         <option>4</option>
+                      </select>
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" required placeholder="Name of the Individual"/>
+                  </div>
+                </div>
+                <div class="col-md-12">
+
+                </div>
+                <div class="col-md-12">
+                  <label>Request Assistance:</label>
+                  <br>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">Wheel Chair</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2"> Ambulance</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                    <label class="form-check-label" for="inlineCheckbox3">Firetruck</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                    <label class="form-check-label" for="inlineCheckbox4">Stretcher</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                    <label class="form-check-label" for="inlineCheckbox5">Medical Assistance</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+                    <label class="form-check-label" for="inlineCheckbox6">First Aid Kit</label>
+                  </div>
+                  <label class="form-label" for="customFile"><br>Photo of the Incident</label><input type="file" class="form-control" id="customFile" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <div class="wrapper text-center">
       <h1>
         "SAVING LIVES IS NOT JUST A DUTY FOR US, BUT A LIFETIME COMMITMENT, WE
@@ -68,7 +153,7 @@
       </h1>
       <h3>- Kuya Daniel Razon</h3>
 
-      <a class="btn btn-primary" href="#">Report An Emergency</a>
+      <a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Report An Emergency</a>
     </div>
 
     <div
