@@ -49,3 +49,12 @@
 /* .divider {
     margin: 2rem 0;
 } */
+
+.error {
+  background: #f2dede;
+  color: #a94442;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+
+}
